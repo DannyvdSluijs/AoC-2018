@@ -12,7 +12,7 @@ if ($argc < 2 || $argc > 3 || !is_numeric($argv[1])) {
     exit(255);
 }
 
-$className = sprintf("\Dannyvdsluijs\AdventOfCode2015\Day%02d", $argv[1]);
+$className = sprintf("\Dannyvdsluijs\AdventOfCode2018\Day%02d", $argv[1]);
 $object = new $className();
 $part = (int) ($argv[2] ?? 1);
 

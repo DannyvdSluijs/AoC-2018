@@ -12,33 +12,27 @@ class Day01 implements PuzzleDay
 
     public function partOne(): string
     {
-        $content = $this->readInput();
+        $content = $this->readInputAsLinesOfIntegers();
 
-        $upOneFloorAmount  = substr_count($content, '(');
-        $downOneFloorAmount  = substr_count($content, ')');
-
-        return (string) ($upOneFloorAmount - $downOneFloorAmount);
+        return (string) array_sum($content);
     }
 
     public function partTwo(): string
     {
-        $chars = $this->readInputAsCharacters();
-        $position = 0;
-        $floor = 0;
+        $content = $this->readInputAsLinesOfIntegers();
 
-        foreach ($chars as $char) {
-            $position++;
-            match ($char) {
-                '(' => $floor++,
-                ')' => $floor--,
-                default => throw new \InvalidArgumentException(sprintf('No case for %s', $char)),
-            };
+        $frequency = 0;
+        $seen = [$frequency];
+        while (true) {
+            foreach ($content as $change) {
+                $frequency += $change;
 
-            if ($floor === -1) {
-                return (string) $position;
+                if (in_array($frequency, $seen)) {
+                    return (string)$frequency;
+                }
+
+                $seen[] = $frequency;
             }
         }
-
-        throw new \Exception('Unable to find a solution');
     }
 }
