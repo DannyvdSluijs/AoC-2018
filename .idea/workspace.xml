@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59d2066a-8af6-4e76-9c0d-1a4b1b77dda9" name="Changes" comment="se">
+      <change afterPath="$PROJECT_DIR$/inputs/day3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day03.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AoC-2018.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AnswersTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AnswersTest.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.2">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/rector/rector" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+    </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2Eqxn0eo4moHQ0be2HLJIYRwGDm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "eb5fff",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/danny/Projects/Infi/AoC-2018",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inputs" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.AnswersTest">
+    <configuration name="AnswersTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="AnswersTest" file="$PROJECT_DIR$/tests/AnswersTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testAnswerIsCorrect (2)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner file="$PROJECT_DIR$/tests/AnswersTest.php" scope="Pattern">
+        <test_patterns>
+          <composite_test_pattern class_fqn="AnswersTest" file_path="$PROJECT_DIR$/tests/AnswersTest.php" dataset="Day 23" method_name="testAnswerIsCorrect" />
+        </test_patterns>
+      </TestRunner>
+      <method v="2" />
+    </configuration>
+    <configuration name="testAnswerIsCorrect (3)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner file="$PROJECT_DIR$/tests/AnswersTest.php" scope="Pattern">
+        <test_patterns>
+          <composite_test_pattern class_fqn="AnswersTest" file_path="$PROJECT_DIR$/tests/AnswersTest.php" dataset="Day 22" method_name="testAnswerIsCorrect" />
+        </test_patterns>
+      </TestRunner>
+      <method v="2" />
+    </configuration>
+    <configuration name="testAnswerIsCorrect (4)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner file="$PROJECT_DIR$/tests/AnswersTest.php" scope="Pattern">
+        <test_patterns>
+          <composite_test_pattern class_fqn="AnswersTest" file_path="$PROJECT_DIR$/tests/AnswersTest.php" dataset="Day 21" method_name="testAnswerIsCorrect" />
+        </test_patterns>
+      </TestRunner>
+      <method v="2" />
+    </configuration>
+    <configuration name="testAnswerIsCorrect (5)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner file="$PROJECT_DIR$/tests/AnswersTest.php" scope="Pattern">
+        <test_patterns>
+          <composite_test_pattern class_fqn="AnswersTest" file_path="$PROJECT_DIR$/tests/AnswersTest.php" dataset="Day 20" method_name="testAnswerIsCorrect" />
+        </test_patterns>
+      </TestRunner>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.AnswersTest" />
+        <item itemvalue="PHPUnit.testAnswerIsCorrect (5)" />
+        <item itemvalue="PHPUnit.testAnswerIsCorrect (4)" />
+        <item itemvalue="PHPUnit.testAnswerIsCorrect (3)" />
+        <item itemvalue="PHPUnit.testAnswerIsCorrect (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59d2066a-8af6-4e76-9c0d-1a4b1b77dda9" name="Changes" comment="" />
+      <created>1663337079062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663337079062</updated>
+      <workItem from="1663337081145" duration="3860000" />
+      <workItem from="1664261579474" duration="1808000" />
+      <workItem from="1664539161197" duration="8916000" />
+      <workItem from="1665065181965" duration="3133000" />
+      <workItem from="1666360790768" duration="4888000" />
+      <workItem from="1666881157064" duration="2433000" />
+      <workItem from="1666938468486" duration="2000" />
+      <workItem from="1666962165567" duration="7106000" />
+      <workItem from="1667247816585" duration="6967000" />
+      <workItem from="1667380467260" duration="15000" />
+      <workItem from="1667848583193" duration="17160000" />
+      <workItem from="1668027409460" duration="4761000" />
+      <workItem from="1668086355707" duration="473000" />
+      <workItem from="1668089968878" duration="7618000" />
+      <workItem from="1668169069711" duration="10082000" />
+      <workItem from="1668411069269" duration="7000" />
+      <workItem from="1668451035373" duration="598000" />
+      <workItem from="1668456132512" duration="1463000" />
+      <workItem from="1668695236761" duration="4178000" />
+      <workItem from="1668779946745" duration="7437000" />
+      <workItem from="1669046127523" duration="5700000" />
+      <workItem from="1669112909494" duration="29000" />
+      <workItem from="1670273301882" duration="109000" />
+      <workItem from="1692880559415" duration="1393000" />
+      <workItem from="1692882094762" duration="5712000" />
+      <workItem from="1696880168611" duration="76000" />
+      <workItem from="1696880248472" duration="13000" />
+      <workItem from="1696880276045" duration="543000" />
+      <workItem from="1696880823346" duration="15000" />
+      <workItem from="1696880840659" duration="37000" />
+      <workItem from="1696880894463" duration="35000" />
+      <workItem from="1696880937681" duration="44000" />
+      <workItem from="1696880996498" duration="2510000" />
+      <workItem from="1698131873894" duration="61000" />
+      <workItem from="1698131945331" duration="426000" />
+      <workItem from="1698132398416" duration="2985000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
