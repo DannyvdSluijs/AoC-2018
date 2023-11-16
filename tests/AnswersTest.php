@@ -16,7 +16,10 @@ class AnswersTest extends TestCase
         $day = new $dayClassName();
 
         self::assertSame($answerPartOne, $day->partOne());
-        self::assertSame($answerPartTwo, $day->partTwo());
+
+        if ($answerPartTwo !== '') {
+            self::assertSame($answerPartTwo, $day->partTwo());
+        }
 
     }
 
@@ -25,6 +28,7 @@ class AnswersTest extends TestCase
         return [
             'Day 1' => [\Dannyvdsluijs\AdventOfCode2018\Day01::class, '406', '312'],
             'Day 3' => [\Dannyvdsluijs\AdventOfCode2018\Day03::class, '109143', '506'],
+            'Day 7' => [\Dannyvdsluijs\AdventOfCode2018\Day07::class, 'GRTAHKLQVYWXMUBCZPIJFEDNSO', '1115'],
             'Day 8' => [\Dannyvdsluijs\AdventOfCode2018\Day08::class, '45618', '22306'],
             'Day 16' => [\Dannyvdsluijs\AdventOfCode2018\Day16::class, '529', '573'],
         ];
