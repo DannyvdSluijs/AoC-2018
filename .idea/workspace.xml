@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d2066a-8af6-4e76-9c0d-1a4b1b77dda9" name="Changes" comment="se">
-      <change afterPath="$PROJECT_DIR$/inputs/day3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day03.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AoC-2018.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/day7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day07.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/AnswersTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AnswersTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +25,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.2">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -80,73 +74,63 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "eb5fff",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/danny/Projects/Infi/AoC-2018",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "web-ide.project.structure",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;eb5fff&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/danny/Projects/Infi/AoC-2018/inputs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/inputs" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.AnswersTest">
-    <configuration name="AnswersTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="AnswersTest" file="$PROJECT_DIR$/tests/AnswersTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testAnswerIsCorrect (2)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+  <component name="RunManager" selected="PHPUnit.testAnswerIsCorrect (1)">
+    <configuration name="testAnswerIsCorrect (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner file="$PROJECT_DIR$/tests/AnswersTest.php" scope="Pattern">
         <test_patterns>
-          <composite_test_pattern class_fqn="AnswersTest" file_path="$PROJECT_DIR$/tests/AnswersTest.php" dataset="Day 23" method_name="testAnswerIsCorrect" />
+          <composite_test_pattern class_fqn="AnswersTest" file_path="$PROJECT_DIR$/tests/AnswersTest.php" dataset="Day 7" method_name="testAnswerIsCorrect" />
         </test_patterns>
       </TestRunner>
       <method v="2" />
     </configuration>
-    <configuration name="testAnswerIsCorrect (3)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+    <configuration name="testAnswerIsCorrect" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner file="$PROJECT_DIR$/tests/AnswersTest.php" scope="Pattern">
         <test_patterns>
-          <composite_test_pattern class_fqn="AnswersTest" file_path="$PROJECT_DIR$/tests/AnswersTest.php" dataset="Day 22" method_name="testAnswerIsCorrect" />
+          <composite_test_pattern class_fqn="AnswersTest" file_path="$PROJECT_DIR$/tests/AnswersTest.php" dataset="Day 16" method_name="testAnswerIsCorrect" />
         </test_patterns>
       </TestRunner>
       <method v="2" />
     </configuration>
-    <configuration name="testAnswerIsCorrect (4)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner file="$PROJECT_DIR$/tests/AnswersTest.php" scope="Pattern">
-        <test_patterns>
-          <composite_test_pattern class_fqn="AnswersTest" file_path="$PROJECT_DIR$/tests/AnswersTest.php" dataset="Day 21" method_name="testAnswerIsCorrect" />
-        </test_patterns>
-      </TestRunner>
+    <configuration name="Day 7" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/run.php" scriptParameters="7 2">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.2" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="testAnswerIsCorrect (5)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner file="$PROJECT_DIR$/tests/AnswersTest.php" scope="Pattern">
-        <test_patterns>
-          <composite_test_pattern class_fqn="AnswersTest" file_path="$PROJECT_DIR$/tests/AnswersTest.php" dataset="Day 20" method_name="testAnswerIsCorrect" />
-        </test_patterns>
-      </TestRunner>
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="PHP Script.Day 7" />
+      <item itemvalue="PHPUnit.testAnswerIsCorrect (1)" />
+      <item itemvalue="PHPUnit.testAnswerIsCorrect" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.AnswersTest" />
-        <item itemvalue="PHPUnit.testAnswerIsCorrect (5)" />
-        <item itemvalue="PHPUnit.testAnswerIsCorrect (4)" />
-        <item itemvalue="PHPUnit.testAnswerIsCorrect (3)" />
-        <item itemvalue="PHPUnit.testAnswerIsCorrect (2)" />
+        <item itemvalue="PHPUnit.testAnswerIsCorrect (1)" />
+        <item itemvalue="PHPUnit.testAnswerIsCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +177,10 @@
       <workItem from="1696880996498" duration="2510000" />
       <workItem from="1698131873894" duration="61000" />
       <workItem from="1698131945331" duration="426000" />
-      <workItem from="1698132398416" duration="2985000" />
+      <workItem from="1698132398416" duration="7839000" />
+      <workItem from="1698216959714" duration="283000" />
+      <workItem from="1699950129423" duration="6053000" />
+      <workItem from="1700146011033" duration="3429000" />
     </task>
     <servers />
   </component>
@@ -210,6 +197,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Day07.php</url>
+          <line>121</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
